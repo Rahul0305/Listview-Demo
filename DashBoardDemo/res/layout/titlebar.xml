@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="horizontal"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+  
+        <ImageView 
+        	android:src="@drawable/ic_launcher"
+            android:onClick="onClickHome"
+            android:scaleType="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnHome" />
+
+        <TextView 
+        	android:id="@+id/txtViewActivityTitle"
+        	android:text="@string/app_name"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_toRightOf="@+id/btnHome"
+        	android:gravity="center" 
+        	android:layout_marginTop="20px"
+        	android:layout_marginLeft="60px"/>
+       
+        <ImageView 
+            android:src="@drawable/ic_launcher"
+            android:onClick="onClickAbout"
+            android:scaleType="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true" />
+        
+
+</RelativeLayout>

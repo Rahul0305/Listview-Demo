@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, CustomlistviewActivity!</string>
+    <string name="app_name">Customlistview</string>
+    <string-array name="student">
+        <item name="first">Divyang</item>
+        <item name="second">Divyang</item>
+        <item name="third">Divyang</item>
+            
+                     
+                     
+    </string-array>
+</resources>

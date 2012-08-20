@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="bottom"
+    android:layout_marginRight="7dip"
+    android:orientation="vertical" >
+
+    <ListView
+        android:id="@+id/lst1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/list_selector_background" >
+    </ListView>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="bottom"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/adbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/btn_default_small"
+            android:text="ADD" />
+
+        <EditText
+            android:id="@+id/edt1"
+            android:layout_width="225dip"
+            android:layout_height="35dip"
+            android:background="@android:drawable/editbox_dropdown_dark_frame"
+            android:drawableRight="@android:drawable/ic_input_add" />
+
+        <Button
+            android:id="@+id/edbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/btn_default_small"
+            android:text="EDIT" />
+    </LinearLayout>
+
+</LinearLayout>

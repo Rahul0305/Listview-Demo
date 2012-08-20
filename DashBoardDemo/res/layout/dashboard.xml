@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+     <ViewStub
+        android:id="@+id/ViewStubHeader"
+        android:inflatedId="@+id/header"
+        android:layout="@layout/titlebar"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:layout_gravity="top" />
+     
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Home"
+        android:onClick="btnHome" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="About Us"
+        android:onClick="btnAboutUs" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Facebook"
+        android:onClick="btnFacebook" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Twitter"
+        android:onClick="btnTwitter" />
+
+</LinearLayout>

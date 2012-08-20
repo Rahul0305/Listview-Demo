@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <ViewStub
+        android:id="@+id/ViewStubHeader"
+        android:inflatedId="@+id/header"
+        android:layout="@layout/titlebar"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:layout_gravity="top" />
+    
+   <TextView 
+       android:text="First Activity"
+       android:gravity="center"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content">
+   </TextView>
+
+</LinearLayout>
